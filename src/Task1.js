@@ -30,7 +30,7 @@ function Task1() {
       <textarea
         value={text}
         onChange={handleTextChange}
-        placeholder="Type something..."
+        placeholder="Drop your Text"
         rows={5}
       />
       {isCounterVisible && (
@@ -46,7 +46,7 @@ function Task1() {
         </div>
       )}
       <button className="clear-button" onClick={handleClear}>
-        Reset
+        Clear Text
       </button>
     </div>
   );
